@@ -1,0 +1,210 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1a1a1d; /* Dark background */
+    color: #e0e0e0; /* Primary text color */
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3330ef; /* Blue shade */
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #cccccc;
+}
+
+.register-btn {
+    background-color: #ffffff;
+    color: #3330ef; /* Blue shade */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 50px 40px;
+}
+
+.certification-process-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.certification-info h1 {
+    font-size: 36px;
+    color: #3330ef; /* Blue shade */
+    margin-bottom: 20px;
+}
+
+.certification-info h2 {
+    font-size: 30px;
+    color: #3330ef; /* Blue shade */
+    margin-bottom: 10px;
+}
+
+.certification-info p {
+    font-size: 18px;
+    color: #333; /* Primary text color */
+    margin-bottom: 20px;
+}
+
+.certification-info ol {
+    margin-left: 20px;
+}
+
+.certification-info li {
+    font-size: 16px;
+    color: #333; /* Primary text color */
+    margin-bottom: 10px;
+}
+
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-container, .terms-container {
+    flex: 1;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certification-form h2 {
+    font-size: 28px;
+    color: #3330ef; /* Blue shade */
+    margin-bottom: 20px;
+}
+
+.certification-form label {
+    display: block;
+    font-size: 16px;
+    color: #333; /* Primary text color */
+    margin-bottom: 5px;
+}
+
+.certification-form input, .certification-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.certification-form input[type="submit"], .certification-form button {
+    background-color: #000; /* Black */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.certification-form input[type="submit"]:hover, .certification-form button:hover {
+    background-color: #333; /* Darker black */
+}
+
+.terms-and-conditions h2 {
+    font-size: 24px;
+    color: #3330ef; /* Blue shade */
+    margin-bottom: 20px;
+}
+
+.terms-and-conditions p {
+    font-size: 16px;
+    color: #333; /* Primary text color */
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #3330ef; /* Blue shade */
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.footer-content {
+    color: #ffffff;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li {
+    font-size: 18px;
+}
+
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #cccccc;
+}
+
+/* Confirmation Message Styles */
+.confirmation-message {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #333; /* Primary text color */
+    border: 2px solid #3330ef;
+    border-radius: 8px;
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+}

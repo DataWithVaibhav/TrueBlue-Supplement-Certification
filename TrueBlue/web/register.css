@@ -1,0 +1,117 @@
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1a1a1d; /* Dark grey background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #262626;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Form Title */
+.form-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3330ef;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #3330ef;
+    border-radius: 8px;
+    background-color: #1a1a1d;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #004080;
+}
+
+/* Buttons */
+button {
+    background-color: #3330ef;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #004080;
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: #3330ef;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    display: block;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #004080;
+}
+
+/* Error Message */
+.error-msg {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+}
